@@ -3,12 +3,6 @@
 }
 
 .header__title {
-    position: absolute;
-    width: 670px;
-    height: 64px;
-    left: 160px;
-    top: 96px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
