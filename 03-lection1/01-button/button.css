@@ -14,18 +14,18 @@ button{
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
   }
   
+  .button:disabled {
+    opacity: 0.5;
+    cursor: default;  
+    pointer-events: none;
+  }
+  
   .button_primary {
     background: var(--primary);
   }
 
   .button_primary:hover {
     background: var(--blue-2);
-  }
-
-  .button:disabled {
-    opacity: 0.5;
-    cursor: default;  
-    pointer-events: none;
   }
 
   .button_primary:disabled {
