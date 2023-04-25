@@ -1,8 +1,12 @@
 /* Стилизация аккордеона */
-.accordion {
+.accordion__item{
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     margin-bottom: 8px;
+  }
+
+  .accordion__item[open] {
+    padding-bottom: 32px;
   }
   
   .accordion:last-child {
@@ -21,7 +25,7 @@
       line-height: 24px;
   }
   
-  .accordion__item {
+  .accordion__content {
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
