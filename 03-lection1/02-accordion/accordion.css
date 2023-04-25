@@ -1,4 +1,12 @@
 /* Стилизация аккордеона */
+.accordion {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .accordion__item{
     border: 1px solid #ACB5BD;
     border-radius: 8px;
@@ -15,20 +23,4 @@
 
   .accordion__summary::-webkit-details-marker { 
       display: none;
-  }
-  
-  .accordion__summary {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-  }
-  
-  .accordion__content {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
   }
