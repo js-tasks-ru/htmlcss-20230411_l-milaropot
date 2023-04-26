@@ -11,6 +11,7 @@
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     margin-bottom: 8px;
+    padding: 24px 32px;
   }
 
   .accordion__item[open] {
