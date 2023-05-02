@@ -35,10 +35,10 @@
     margin-bottom: 0;
 }
 
-.skeleton__line__1 {
+.skeleton__line_short {
     max-width: 20%;
 }
 
-.skeleton__line__2 {
+.skeleton__line_middle {
     max-width: 40%;
 }
