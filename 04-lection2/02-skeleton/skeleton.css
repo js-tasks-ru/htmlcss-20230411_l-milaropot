@@ -1,0 +1,44 @@
+.skeleton {
+    padding: 24px 40px 32px 24px;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__circle {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--grey-2);
+}
+
+.skeleton__title {
+    flex-shrink: 1;
+    flex-basis: 100%;
+    margin-left: 16px;
+}
+
+.skeleton__line {
+    height: 20px;
+    max-width: 100%;
+    margin-bottom: 8px;
+    background: var(--grey-2);
+}
+
+.skeleton__line:last-child {
+    margin-bottom: 0;
+}
+
+.skeleton__line_short {
+    max-width: 20%;
+}
+
+.skeleton__line_middle {
+    max-width: 40%;
+}
